@@ -29,7 +29,7 @@ pipeline {
          			} catch(error){
           				sh "ssh ubuntu@34.216.186.50 kubectl create -f ."
          		        }
-        		    }
+        		    
                          }
                 }
             }
